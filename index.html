@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JAJANAN CITARASA</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+  <div class="logo">
+    <a href="#beranda">
+      <img src="img/logo.png" alt="Logo Jajanan Citarasa Kebumen" class="logo-img">
+    </a>
+  </div>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="produk.html">Produk</a>
+    <a href="tentang.html">Tentang Kami</a>
+    <a href="#lokasi">Lokasi</a>
+  </nav>
+</header>
+
+  <section id="beranda">
+    <div class="hero-text">
+      <h1>Camilan Renyah, Rasa Ngangenin, Teman Setiap Momen</h1>
+      <p>
+        Jajanan Cita Rasa Kebumen menghadirkan aneka camilan gurih, mulai dari basreng hingga mie gulung, serta sambal untuk melengkapi santapan favoritmu. Cocok untuk teman santai, kumpul keluarga, maupun oleh-oleh bagi orang tersayang.
+      </p>
+      <a href="#produk" class="btn">Belanja Sekarang</a>
+    </div>
+  </section>
+
+  <section id="produk">
+    <h2>Produk Pilihan</h2>
+
+    <div class="catalog-grid">
+
+      <!-- Produk 1: Basreng -->
+      <div class="card" data-category="camilan">
+        <a href="pemesanan.html?nama=Basreng%20Cah%20Ngapak&harga=Rp%2013.000&gambar=img/basreng.png&kat=Camilan&desc=Camilan%20bakso%20goreng%20renyah%20dengan%20bumbu%20gurih%20yang%20bikin%20waktu%20santai%20makin%20seru.">
+          <img src="img/basreng.png" alt="Basreng Cah Ngapak">
+          <div class="card-content">
+            <h3>Basreng Cah Ngapak</h3>
+            <p>Camilan bakso goreng renyah dengan bumbu gurih yang bikin waktu santai makin seru. Tersedia dalam tiga pilihan rasa: Pedas Daun Jeruk, Balado Daun Jeruk, dan Original Daun Jeruk.</p>
+            <div class="price">Rp 13.000</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Produk 2: Mie Gulung -->
+      <div class="card" data-category="camilan">
+        <a href="pemesanan.html?nama=Mie%20Gulung&harga=Rp%2015.000&gambar=img/milung.png&kat=Camilan&desc=Nikmati%20kelezatan%20Mie%20Gulung,%20camilan%20renyah%20dengan%20bentuk%20unik%20dan%20cita%20rasa%20gurih%20yang%20bikin%20ketagihan!">
+          <img src="img/milung.png" alt="Mie Gulung">
+          <div class="card-content">
+            <h3>Mie Gulung</h3>
+            <p>Nikmati kelezatan Mie Gulung, camilan renyah dengan bentuk unik dan cita rasa gurih yang bikin ketagihan! Dibuat dari mie pilihan dengan bumbu khas yang meresap di setiap gigitan.</p>
+            <div class="price">Rp 15.000</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Produk 3: Aneka Sambal -->
+      <div class="card" data-category="sambal">
+        <a href="pemesanan.html?nama=Aneka%20Sambal&harga=Rp%2028.000&gambar=img/sambal.png&kat=Sambal&desc=Nikmati%20sensasi%20pedas%20dan%20gurih%20dari%20Sambal%20Uenak%20yang%20siap%20menggugah%20selera%20di%20setiap%20hidangan!">
+          <img src="img/sambal.png" alt="Sambal">
+          <div class="card-content">
+            <h3>Aneka Sambal</h3>
+            <p>Nikmati sensasi pedas dan gurih dari Sambal Uenak yang siap menggugah selera di setiap hidangan! Dibuat dengan perpaduan cabai, bawang, dan bumbu pilihan.</p>
+            <div class="price">Rp 28.000</div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="lokasi">
+    <h2>Kunjungi Toko Kami</h2>
+    <div class="location-info">
+      <p class="store-name">📍 JAJANAN CITARASA</p>
+      <p>RT 03 RW 03, Watubarut, Gemeksekti, Kebumen</p>
+      <p>⏰ Buka setiap hari: 09.00 - 21.00 WIB</p>
+    </div>
+    <a href="https://maps.app.goo.gl/TmAmTBgGTd42muDu8" target="_blank" class="btn btn-outline">
+      Buka di Google Maps
+    </a>
+  </section>
+
+  <footer>
+  <h3>Hubungi Kami</h3>
+  <div class="socials">
+    <a href="https://wa.me/087715188829?text=Halo%20Jajanan%20Cita%20Rasa%2C%20saya%20ingin%20bertanya" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+  <p class="copyright">© Supported By INAmikro 2026</p>
+</footer>
+
+  <div id="toast">Pesan notifikasi...</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
